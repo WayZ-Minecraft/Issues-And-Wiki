@@ -17,15 +17,6 @@ You can also download a pre-built **`.content-pack`** file and a **ZIP archive**
 
 ---
 
-## Contents
-
-* 🔧 **Issues** — Track bugs, suggest features, and follow development updates.
-* 🧱 **Content Pack Wiki** — Learn to build and configure game elements like props, blocks, items, and weapons.
-* 🧩 **Example Pack** — Discover the structure and code of a working content pack.
-* 🚀 **Releases** — Download ready-to-use `.content-pack` and `.zip` files for quick setup.
-
----
-
 ## Contributing
 
 Want to contribute?
