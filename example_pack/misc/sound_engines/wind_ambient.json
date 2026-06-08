@@ -1,0 +1,44 @@
+{
+    "sounds": [
+        {
+            "name": "ambient.wind.wind",
+            "path": "ambient/wind/wind",
+            "category": "AMBIENT",
+            "multiSound": 2
+        },
+        {
+            "name": "ambient.wind.rooftop",
+            "path": "ambient/wind/rooftop",
+            "category": "AMBIENT"
+        },
+        {
+            "name": "ambient.wind.gust",
+            "path": "ambient/wind/gust",
+            "category": "AMBIENT"
+        }
+    ],
+    "play": [
+        {
+            "sound": "ambient.wind.gust",
+            "loop": true,
+            "stopSounds": true,
+            "when": [
+                {
+                    "condition": "HEIGHT_ABOVE",
+                    "value": "135"
+                }
+            ]
+        },
+        {
+            "sound": "ambient.wind.wind",
+            "loop": true,
+            "stopSounds": true,
+            "when": [
+                {
+                    "condition": "BIOME_CATEGORY",
+                    "values": ["PLAINS"]
+                }
+            ]
+        }
+    ]
+}

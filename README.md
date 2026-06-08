@@ -13,7 +13,7 @@ In this repository, you’ll find:
 * 📚 **Content Pack Wiki** — Complete documentation for creating custom objects such as **props, blocks, items, guns**, and more.
 * 💻 **Example Pack Source Code** — A ready-to-explore example to learn how content packs work.
 
-You can also download a pre-built **`.content-pack`** file and a **ZIP archive** from the **[Releases](./releases)** section.
+You can also download a pre-built **ZIP archive** from the **[Releases](./releases)** section.
 
 ---
 

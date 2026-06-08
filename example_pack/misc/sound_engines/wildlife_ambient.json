@@ -1,0 +1,34 @@
+{
+    "sounds": [
+        {
+            "name": "ambient.wildlife.chicka",
+            "path": "ambient/wildlife/chicka",
+            "category": "AMBIENT",
+            "multiSound": 3
+        }
+    ],
+    "play": [
+        {
+            "sound": "ambient.wildlife.chicka",
+            "position": "PLAYER_RANDOM",
+            "chance": 0.05,
+            "tickToReachMin": 50,
+            "tickToReachMax": 120,
+            "exclusive": true,
+            "when": [
+                {
+                    "condition": "TIME_RANGE",
+                    "min": 1,
+                    "max": 12999
+                },
+                {
+                    "condition": "WEATHER_CLEAR"
+                },
+                {
+                    "condition": "BIOME_CATEGORY",
+                    "values": ["NONE", "PLAINS", "FOREST"]
+                }
+            ]
+        }
+    ]
+}
